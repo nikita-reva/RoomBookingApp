@@ -52,5 +52,3 @@ void EnsureDatabaseCreated(SqliteConnection conn)
     using var context = new RoomBookingAppDbContext(builder.Options);
     context.Database.EnsureCreated();
 }
-
-
